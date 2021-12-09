@@ -6,7 +6,9 @@ namespace Git
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
+            int x = 6;
+            int y = 10;  
+            Console.WriteLine("S +10 = {0}" , x+y);
             Console.ReadKey();
             
         }
